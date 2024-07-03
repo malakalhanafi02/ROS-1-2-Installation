@@ -6,7 +6,7 @@
 - Both ROS1 (Noetic) and ROS2 (Foxy) set up and ready for action.
 - The ability to toggle between ROS1 and ROS2 environments like a pro. 🧑‍💻
 
-💢This repository contains the following folders and files:
+💢This repository contains the following files:
 - **SettingUp_Linux.md**: Instructions for setting up UTM, Ubuntu, and Linux.
 - **Installing_ROS1.md**: Guide for installing ROS1 Noetic.
 - **Installing_ROS2.md**: Guide for installing ROS2 Foxy.
