@@ -4,10 +4,9 @@
 - UTM installed and ready to virtualize.
 - A fully operational Ubuntu system running smoothly on your Mac.
 - Both ROS1 (Noetic) and ROS2 (Foxy) set up and ready for action.
-- The ability to toggle between ROS1 and ROS2 environments like a pro. 🧑‍💻
 
 💢 This repository contains the following files:
 - [**SettingUp_Linux.md**](SettingUp_Linux.md): Instructions for setting up UTM, Ubuntu, and Linux.
 - [**Installing_ROS1.md**](Installing_ROS1.md): Guide for installing ROS1 Noetic.
 - [**Installing_ROS2.md**](Installing_ROS2.md): Guide for installing ROS2 Foxy.
-- [**Troubleshooting.md**](Troubleshooting.md): Common issues and troubleshooting steps.
+- [**Troubleshooting.md**](Troubleshooting.md): Common issues, troubleshooting steps & the ability to toggle between ROS1 and ROS2 environments.
