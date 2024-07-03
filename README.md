@@ -18,6 +18,17 @@
   Storage "use the entire disk" -> <img width="916" alt="image" src="https://github.com/malakalhanafi02/AI/assets/122760944/61b695e5-2413-4737-b1de-cb6b346a26d3"> 
   
   "Continue" -> Set up Ubuntu profile -> Install OpenSSH or skip -> Now the installation starts!!
+  "Cancel update and reboot" 
+  <img width="812" alt="image" src="https://github.com/malakalhanafi02/AI/assets/122760944/3f42369f-a67d-4e82-8513-0773f22c683d">
+We want to clear this, so go to the setting icon (top right corener, <img width="33" alt="image" src="https://github.com/malakalhanafi02/AI/assets/122760944/608a2e9b-1ed8-46aa-881b-431fc3cb7219">) and click clear path: <img width="1137" alt="image" src="https://github.com/malakalhanafi02/AI/assets/122760944/73c1da54-80fd-4327-b903-0155a2e841f1">.
+
+After that, click play & login using your credentials.
+- Installing the Desktop Environment:
+  RUN "$ sudo apt install kubuntu-desktop"
+- After installation process has completed successfully, reboot your system "sudo reboot", login using your credentials
+
+  DONE!<img width="1271" alt="image" src="https://github.com/malakalhanafi02/AI/assets/122760944/7db63381-e349-48d6-ab31-4ce8b7c02d8f">
+
 
 
   
