@@ -64,6 +64,81 @@ After checking the necessary boxes, click "Close."
      If everything is set up correctly, you should see ROS core services start running, similar to the following output:<img width="670" alt="image" src="https://github.com/malakalhanafi02/AI/assets/122760944/4d0d94eb-66d7-482f-8425-673203465c28">
 
 
+1. Set locale (Check for UTF-8 locale): 
+locale  # check for UTF-8
+
+2. Update and install locales:
+sudo apt update && sudo apt install locales
+sudo locale-gen en_US en_US.UTF-8
+sudo update-locale LC_ALL=en_US.UTF-8 LANG=en_US.UTF-8
+export LANG=en_US.UTF-8
+
+3. Verify the locale settings:
+locale
+
+<img width="241" alt="image" src="https://github.com/malakalhanafi02/AI/assets/122760944/b13713e6-0d3c-403a-8880-551fb57b9f7d">
+
+
+Setup Sources
+
+4. Ensure that the Ubuntu Universe repository is enabled: 
+sudo apt install software-properties-common
+sudo add-apt-repository universe
+
+5. Add the ROS 2 GPG key with apt:
+sudo apt update && sudo apt install curl -y
+sudo curl -sSL https://raw.githubusercontent.com/ros/rosdistro/master/ros.key -o /usr/share/keyrings/ros-archive-keyring.gpg
+
+6. Add the repository to your sources list:
+echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/ros-archive-keyring.gpg] http://packages.ros.org/ros2/ubuntu $(. /etc/os-release && echo $UBUNTU_CODENAME) main" | sudo tee /etc/apt/sources.list.d/ros2.list > /dev/null
+
+Install ROS 2 Packages
+
+7. Update your apt repository caches:
+sudo apt update
+
+8. Upgrade your system:
+sudo apt upgrade
+
+9. Install ROS 2 Foxy Desktop:
+sudo apt install ros-foxy-desktop python3-argcomplete
+
+Environment Setup
+
+10. Source the setup script:
+source /opt/ros/foxy/setup.bash
+
+Verify Installation of ROS 2 Foxy
+11. You should see a list of installed ROS 2 Foxy packages: 
+dpkg -l | grep ros-foxy
+
+* If you get this error message: <img width="1238" alt="image" src="https://github.com/malakalhanafi02/AI/assets/122760944/9c6b8644-3b5a-4e64-981e-5691c2c4ed55">
+Follow these steps:
+1. Clear Previous ROS Environment Variables:
+unset ROS_DISTRO
+unset ROS_ETC_DIR
+unset ROS_PACKAGE_PATH
+unset ROS_ROOT
+unset ROS_MASTER_URI
+
+2. Source the ROS 2 Foxy Setup Script:
+source /opt/ros/foxy/setup.bash
+
+3. Verify by Running a ROS 2 Node:
+- In one terminal, start a C++ talker:
+ros2 run demo_nodes_cpp talker
+- In another terminal, start a Python listener:
+ros2 run demo_nodes_py listener
+
+
+* Using Separate Terminals for ROS 1 and ROS 2:
+- ROS 1 (Noetic): source /opt/ros/noetic/setup.bash
+- ROS 2 (Foxy): source /opt/ros/foxy/setup.bash
+
+
+
+
+
 
 
 
