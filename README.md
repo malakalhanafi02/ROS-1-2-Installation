@@ -1,4 +1,4 @@
-#🚀 Welcome to the Ultimate Guide: Running Ubuntu, Linux, ROS1 Noetic, and ROS2 Foxy on your Mac with UTM! 🛠️
+# 🚀 Welcome to the Ultimate Guide: Running Ubuntu, Linux, ROS1 Noetic, and ROS2 Foxy on your Mac with UTM! 🛠️
 
 # 1. Downloading Linux on MacOS
 - Download UTM: https://mac.getutm.app/
