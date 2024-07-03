@@ -1,6 +1,6 @@
 # AI
 
-1. Downloading Linux on MacOS
+# 1. Downloading Linux on MacOS
 - Download UTM: https://mac.getutm.app/
 - Download Ubuntu 20.04 (image): https://cdimage.ubuntu.com/releases/20.04.5/release/
 - Open UTM:
@@ -30,7 +30,7 @@ After that, click play & login using your credentials.
   DONE!<img width="1271" alt="image" src="https://github.com/malakalhanafi02/AI/assets/122760944/7db63381-e349-48d6-ab31-4ce8b7c02d8f">
 
 
-2. Preparing to download for ROS1:
+# 2. Preparing to download for ROS1:
 - Go to the Terminal in Linux, and follow these steps:
   1. Installing software-properties-gtk:
 'sudo apt update
@@ -46,7 +46,7 @@ After that, click play & login using your credentials.
 After checking the necessary boxes, click "Close."
      <img width="1033" alt="image" src="https://github.com/malakalhanafi02/AI/assets/122760944/df154eb5-b6e9-44dc-ad6c-8df087e2cdd2">
 
-3. Downloading ROS1 Noetic:
+# 3. Installing ROS1 Noetic:
   1. Setup Your sources.list: RUN sudo sh -c 'echo "deb http://packages.ros.org/ros/ubuntu $(lsb_release -sc) main" > /etc/apt/sources.list.d/ros-latest.list'
   2. Set Up Your Keys: sudo apt install curl
                        curl -s https://raw.githubusercontent.com/ros/rosdistro/master/ros.asc | sudo apt-key add -
@@ -63,7 +63,7 @@ After checking the necessary boxes, click "Close."
   8. Verifying Installation: roscore
      If everything is set up correctly, you should see ROS core services start running, similar to the following output:<img width="670" alt="image" src="https://github.com/malakalhanafi02/AI/assets/122760944/4d0d94eb-66d7-482f-8425-673203465c28">
 
-
+# 4. Installing ROS2 Foxy:
 1. Set locale (Check for UTF-8 locale): 
 locale  # check for UTF-8
 
